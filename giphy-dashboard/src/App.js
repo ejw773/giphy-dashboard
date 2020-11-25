@@ -26,8 +26,6 @@ class App extends React.Component {
     componentWillUnmount() {
     }
 
-
-
     render() {
         return (
             <div>
@@ -35,9 +33,6 @@ class App extends React.Component {
                     <h1>Trending on Giphy.com</h1>
                 </div>
                 <div className='giphy-container'>
-                    {this.state.gifData.map((gifItem) => (console.log(gifItem.title)))}
-                    {this.state.gifData.map((gifItem) => (console.log(gifItem.images.original.url)))}
-
                     {this.state.gifData.map((gifItem) => (
                         <GifCard
                             gifTitle={gifItem.title}
