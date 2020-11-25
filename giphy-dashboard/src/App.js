@@ -17,11 +17,6 @@ class App extends React.Component {
             .then(res => res.json())
             .then(data => {
                 this.setState(this.state.gifData = data.data)
-                // console.log(this.state.gifData)
-                // console.log(this.state.gifData[0].images.original.url)
-                // console.log(this.state.gifData[0].title)
-                // console.log(this.state.gifData[0])
-
             })
     }
 

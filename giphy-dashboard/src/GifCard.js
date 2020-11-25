@@ -3,13 +3,6 @@ import React from 'react';
 class GifCard extends React.Component {
     constructor(props) {
         super(props)
-
-        // this.state = {
-        //     gifPick: [],
-        //     isReady: false,
-        //     hideIt: false,
-        //     likeIt: false
-        // }
     }
     
     render() {
