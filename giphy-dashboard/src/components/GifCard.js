@@ -8,7 +8,7 @@ class GifCard extends React.Component {
     render() {
         return (
             <div className="card" style={{width: "18rem"}}>
-              <img src={this.props.url} className="card-img-top" alt="missing" />
+              <img src={this.props.url} key={this.props.url} className="card-img-top" alt="missing" />
                 <div className="card-body">
                 <h5 className="card-title">{this.props.gifTitle}</h5>
                 </div>
